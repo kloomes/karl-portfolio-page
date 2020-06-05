@@ -1,0 +1,13 @@
+<h1>Edit Website</h1>
+<%= simple_form_for @website do |f| %>
+<%= f.input :name %>
+<%= f.input :description %>
+<%= f.input :web_link %>
+<%= f.input :github_link %>
+<%= f.input :code_tags %>
+<%= f.input :live %>
+<%= f.input :favourite %>
+<%= f.input :full_website, as: :file %>
+<%= f.input :mobile_website, as: :file %>
+<%= f.submit %>
+<% end %>
