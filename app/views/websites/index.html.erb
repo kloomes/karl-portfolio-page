@@ -1,1 +1,12 @@
 <h1>Portfolio Page</h1>
+<% @websites.each do |website| %>
+  <p><%= website.name %></p>
+  <p><%= website.description %></p>
+  <p><%= website.web_link %></p>
+  <p><%= website.github_link %></p>
+  <p><%= website.code_tags %></p>
+  <p><%= website.live %></p>
+  <p><%= website.favourite %></p>
+  <%= cl_image_tag website.full_website.key, height: 300, width: 400, crop: :fill %>
+  <%= cl_image_tag website.mobile_website.key, height: 300, width: 200, crop: :fill %>
+<% end %>
