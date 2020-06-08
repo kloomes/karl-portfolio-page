@@ -11,3 +11,4 @@
   <%= f.input :mobile_website, as: :file %>
   <%= f.submit %>
 <% end %>
+<%= link_to 'Delete', website_path(params[:id]), method: :delete, data: { confirm: 'Are you sure?' } %>
