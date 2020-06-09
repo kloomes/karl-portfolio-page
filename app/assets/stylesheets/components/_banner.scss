@@ -3,4 +3,13 @@
   height: 50vh;
   background-color: black;
   position: relative;
+  h1 {
+    color: white;
+    font-size: 7em;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 25%;
+    font-family: 'Caveat', cursive;
+  }
 }
