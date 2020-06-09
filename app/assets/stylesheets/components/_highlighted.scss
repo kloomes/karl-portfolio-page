@@ -1,0 +1,16 @@
+.favourite-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  height: 300px;
+  .laptop-image {
+    border: 1px solid black;
+    margin-right: 10%;
+    width: 30%;
+  }
+  .mobile-image {
+    border: 1px solid black;
+    margin-left: 5%;
+    width: 12%;
+  }
+}
