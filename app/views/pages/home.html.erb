@@ -3,15 +3,13 @@
     Karl Loomes
   </h1>
   <div class="button-container">
-    <button class="my-button">
-      <%= link_to "Portfolio", websites_path %>
-    </button>
-    <button class="my-button">
+    <%= link_to "Portfolio", websites_path, class: "my-button" %>
+    <a class="my-button" href="#about">
       About
-    </button>
-    <button class="my-button">
+    </a>
+    <a class="my-button" href="#contact">
       Contact
-    </button>
+    </a>
   </div>
   <div class="my-avatar">
 
@@ -25,9 +23,10 @@
     Mobile
   </div>
 </div>
-<div class="about-me">
-
+<div class="about-me" id="about">
+  <h3>About</h3>
+  <p>My name is Karl and I am a full stack web developer.</p>
 </div>
-<div class="contact-bar">
-
+<div class="contact-bar" id="contact">
+  Contact Info
 </div>
