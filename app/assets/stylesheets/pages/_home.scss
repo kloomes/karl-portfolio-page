@@ -10,4 +10,24 @@ body {
   margin-left: 20%;
   text-align: center;
   padding: 10px;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.5em;
+  h3 {
+    font-family: 'Patrick Hand', cursive;
+    font-weight: bold;
+  }
+}
+
+.contact-bar {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 3em;
+  a {
+    color: black;
+    margin: 0 10px;
+  }
+  a:hover {
+    opacity: 0.7;
+  }
 }
